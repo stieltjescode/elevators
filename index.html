@@ -4,8 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stieltjesweg - Elevators</title>
+    <style>
+      .alert {
+        padding: 1rem;
+        background-color: rgb(255, 243, 205);
+        border: 1px solid rgb(255, 236, 181);
+        color: rgb(102, 77, 3);
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      .grid-item {}
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <center>
+      <h1>Stieltjesweg Elevators</h1>
+      <p><i>from left to right</i></p>
+    </center>
+    <div class="alert">
+      <strong>Heads-up!</strong> Information might not be up-to-date. Website is a work in progress.
+    </div>
+    <div class="grid-container">
+      <div class="grid-item">
+        <p><b>Elevator 1</b><br/>Status: Working<br/>Since: 2022-10-12</p>
+      </div>
+      <div class="grid-item">
+        <p><b>Elevator 2</b><br/>Status: Not Working<br/>Since: 2022-10-12</p>
+      </div>
+      <div class="grid-item">
+        <p><b>Elevator 3</b><br/>Status: Working<br/>Since: 2022-10-13</p>
+      </div>
+    </div>
   </body>
 </html>
